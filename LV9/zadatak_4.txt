@@ -1,0 +1,12 @@
+1. Promjena velicine serije:
+    - Mala velicina -> duze traje , 8 kao batch size, 68.5% acc, 400 sec
+    - Velika velicina -> krace traje , 256 kao batch size, 75.13% acc, 81 sec
+
+2. Promjena stope ucenja:
+    - Jako mala velicina (0.000001) -> 33.42% acc, 116 sec
+    - Mala velicina (0.001) -> 73,94% acc , 117 sec
+    - Velika velicina (0.1) -> 10% acc , 112 sec
+
+3. Izbacivanjem sloja dobijemo:
+
+4. Smanjivanjem velicine skupa za ucenje dobijemo manju tocnost na testnom skupu -> 10% acc
